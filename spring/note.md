@@ -38,7 +38,7 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 ## 注解说明
 - @autowired：自动装配通过类型、名字
 - @resource：自动装配通过名字、类型
-
+- @compontent:说明这个类被spring管理了，就是bean
 
 
 

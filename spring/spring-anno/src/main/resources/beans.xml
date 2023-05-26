@@ -8,11 +8,5 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context.xsd"
 >
     <context:annotation-config/>
-    <bean id="dog" class="com.tangling.pojo.Dog"></bean>
-    <bean id="cat" class="com.tangling.pojo.Cat"></bean>
-    <bean id="people" class="com.tangling.pojo.People" autowire="byName">
-        <property name="name" value="xiaoming"></property>
-        <!--        <property name="dog" ref="dog"></property>-->
-        <!--        <property name="cat" ref="cat"></property>-->
-    </bean>
+    <context:component-scan base-package="com.tl.pojo"/>
 </beans>
