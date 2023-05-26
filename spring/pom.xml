@@ -12,6 +12,7 @@
         <module>spring-ioc1</module>
         <module>spring-hellospring</module>
         <module>spring-aop</module>
+        <module>spring-anno</module>
     </modules>
 
     <properties>

@@ -9,6 +9,7 @@
         <module name="spring-ioc1" />
         <module name="spring-hellospring" />
         <module name="spring-aop" />
+        <module name="spring-anno" />
       </profile>
     </annotationProcessing>
   </component>
